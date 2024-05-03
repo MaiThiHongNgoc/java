@@ -1,4 +1,7 @@
-package session8;
+package session8.controller;
+
+import session8.model.LoginDaoImpl;
+import session8.entity.Users;
 
 public class LoginController {
     LoginDaoImpl loginDAO= new LoginDaoImpl() ;

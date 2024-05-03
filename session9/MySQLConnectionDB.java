@@ -1,11 +1,11 @@
-package session8;
+package session9;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnection {
-    public static Connection getConnection() throws SQLException {
+public class MySQLConnectionDB {
+    public static Connection getMySQLConnection() throws SQLException {
         Connection conn=null;
         String hostName = "localhost";//127.0.0.1
         String dbName ="EmployeeFPT";
@@ -20,9 +20,4 @@ public class DBConnection {
 
     }
 
-    public static void main(String[] args) throws SQLException {
-        if (getConnection()!=null){
-            System.out.println("kntc");
-        }
-    }
 }

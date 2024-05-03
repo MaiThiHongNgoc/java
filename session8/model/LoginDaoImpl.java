@@ -1,9 +1,12 @@
-package session8;
+package session8.model;
+
+import session8.entity.Users;
+import session8.model.DBConnection;
+import session8.model.LoginDAO;
 
 import java.sql.*;
-import java.util.Collection;
 
-public class LoginDaoImpl implements LoginDAO{
+public class LoginDaoImpl implements LoginDAO {
     private static final Connection conn;
 
     static {

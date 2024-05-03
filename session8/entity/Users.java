@@ -1,4 +1,4 @@
-package session8;
+package session8.entity;
 
 
 //entity <=> table

@@ -1,4 +1,7 @@
-package session8;
+package session8.view;
+
+import session8.controller.LoginController;
+import session8.entity.Users;
 
 import java.io.IOException;
 import java.util.Scanner;
